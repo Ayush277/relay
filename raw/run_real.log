@@ -1,0 +1,6 @@
+== running real_daily_exhausted
+{"scenario": "real_daily_exhausted", "source": "real", "sent": 11, "duration_s": 58.9, "peak_queue": 1, "offered_per_min": 11.0, "shed": {"openai/gpt-oss-20b": 0, "openai/gpt-oss-120b": 0}, "scale": {"openai/gpt-oss-20b": 1.0, "openai/gpt-oss-120b": 1.0}, "server": {}, "retry_log_n": 0}
+== running real_steady
+{"scenario": "real_steady", "source": "real", "sent": 5, "duration_s": 80.1, "peak_queue": 0, "offered_per_min": 3.3, "shed": {"openai/gpt-oss-20b": 0, "openai/gpt-oss-120b": 0}, "scale": {"openai/gpt-oss-20b": 1.0, "openai/gpt-oss-120b": 1.0}, "server": {}, "retry_log_n": 0}
+== running real_burst
+{"scenario": "real_burst", "source": "real", "sent": 14, "duration_s": 3.0, "peak_queue": 0, "offered_per_min": 18.7, "shed": {"openai/gpt-oss-20b": 0, "openai/gpt-oss-120b": 0}, "scale": {"openai/gpt-oss-20b": 1.0, "openai/gpt-oss-120b": 1.0}, "server": {}, "retry_log_n": 0}

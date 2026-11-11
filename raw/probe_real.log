@@ -1,0 +1,156 @@
+models: ['canopylabs/orpheus-v1-english', 'meta-llama/llama-prompt-guard-2-22m', 'meta-llama/llama-prompt-guard-2-86m', 'whisper-large-v3-turbo', 'openai/gpt-oss-20b', 'openai/gpt-oss-safeguard-20b', 'whisper-large-v3', 'allam-2-7b', 'canopylabs/orpheus-arabic-saudi', 'openai/gpt-oss-120b', 'qwen/qwen3.8-27b']
+openai/gpt-oss-20b 0 200 570 587
+openai/gpt-oss-20b 1 200 580 614
+openai/gpt-oss-20b 2 200 565 600
+openai/gpt-oss-20b 3 200 557 594
+openai/gpt-oss-20b 4 200 518 543
+openai/gpt-oss-20b 5 200 556 582
+openai/gpt-oss-20b 6 200 365 400
+openai/gpt-oss-20b 7 200 480 493
+openai/gpt-oss-20b 8 200 381 471
+openai/gpt-oss-20b 9 200 400 435
+openai/gpt-oss-20b 10 200 0 576
+openai/gpt-oss-20b 11 200 538 577
+openai/gpt-oss-20b 12 200 531 562
+openai/gpt-oss-20b 13 200 548 611
+openai/gpt-oss-20b 14 200 477 480
+openai/gpt-oss-20b 15 200 589 605
+openai/gpt-oss-20b 16 200 469 546
+openai/gpt-oss-20b 17 200 471 553
+openai/gpt-oss-20b 18 200 319 329
+openai/gpt-oss-20b 19 200 561 567
+openai/gpt-oss-20b 20 200 563 576
+openai/gpt-oss-20b 21 200 566 569
+openai/gpt-oss-20b 22 200 613 619
+openai/gpt-oss-20b 23 200 348 354
+openai/gpt-oss-20b 24 200 1059 1076
+openai/gpt-oss-120b 0 200 368 439
+openai/gpt-oss-120b 1 200 389 436
+openai/gpt-oss-120b 2 200 690 762
+openai/gpt-oss-120b 3 200 1651 1764
+openai/gpt-oss-120b 4 200 773 818
+openai/gpt-oss-120b 5 200 590 675
+openai/gpt-oss-120b 6 200 699 766
+openai/gpt-oss-120b 7 200 596 637
+openai/gpt-oss-120b 8 200 566 707
+openai/gpt-oss-120b 9 200 515 592
+openai/gpt-oss-120b 10 200 0 770
+openai/gpt-oss-120b 11 200 616 706
+openai/gpt-oss-120b 12 200 512 569
+openai/gpt-oss-120b 13 200 449 587
+openai/gpt-oss-120b 14 200 524 564
+openai/gpt-oss-120b 15 200 631 694
+openai/gpt-oss-120b 16 200 440 572
+openai/gpt-oss-120b 17 200 547 679
+openai/gpt-oss-120b 18 200 597 609
+openai/gpt-oss-120b 19 200 487 502
+concurrency 1 [200]
+concurrency 2 [200, 200]
+concurrency 4 [200, 200, 200, 200]
+concurrency 8 [200, 200, 200, 200, 200, 200, 200, 200]
+concurrency 16 [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200]
+RPM probe: ok before first 429 = 30 {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m754ahr9ebptysxcwk1tmc1r` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+
+recovered after 2.409214973449707
+oversize: 413 {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_01m754ahr9ebptysxcwk1tmc1r` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9079, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+{
+ "limits": {
+  "openai/gpt-oss-20b": {
+   "rpd": 1000,
+   "tpm": 8000,
+   "rpm": 30,
+   "rpm_observed": 30
+  },
+  "openai/gpt-oss-120b": {
+   "rpd": 1000,
+   "tpm": 8000
+  }
+ },
+ "concurrency": {
+  "conc1": [
+   200
+  ],
+  "conc2": [
+   200,
+   200
+  ],
+  "conc4": [
+   200,
+   200,
+   200,
+   200
+  ],
+  "conc8": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "conc16": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ]
+ },
+ "rpm_result": {
+  "tag": "rpm_result",
+  "ok_before_429": 30,
+  "elapsed_s": 11.533594131469727,
+  "first429": {
+   "tag": "rpm_ramp",
+   "model": "openai/gpt-oss-20b",
+   "status": 429,
+   "t": 1794395839.541552,
+   "total_ms": 44.29254203569144,
+   "headers": {
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": null,
+    "x-ratelimit-remaining-requests": "916",
+    "x-ratelimit-remaining-tokens": null,
+    "x-ratelimit-reset-requests": "2h0m57.6s",
+    "x-ratelimit-reset-tokens": null,
+    "retry-after": "2"
+   },
+   "body": "{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m754ahr9ebptysxcwk1tmc1r` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"requests\",\"code\":\"rate_limit_exceeded\"}}\n"
+  }
+ },
+ "recovery": {
+  "tag": "rpm_recovery_result",
+  "seconds": 2.409214973449707
+ },
+ "sample_429": {
+  "tag": "rpm_ramp",
+  "model": "openai/gpt-oss-20b",
+  "status": 429,
+  "t": 1794395839.541552,
+  "total_ms": 44.29254203569144,
+  "headers": {
+   "x-ratelimit-limit-requests": "1000",
+   "x-ratelimit-limit-tokens": null,
+   "x-ratelimit-remaining-requests": "916",
+   "x-ratelimit-remaining-tokens": null,
+   "x-ratelimit-reset-requests": "2h0m57.6s",
+   "x-ratelimit-reset-tokens": null,
+   "retry-after": "2"
+  },
+  "body": "{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m754ahr9ebptysxcwk1tmc1r` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"requests\",\"code\":\"rate_limit_exceeded\"}}\n"
+ }
+}

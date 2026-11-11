@@ -1,0 +1,4 @@
+s120_k3_plain: evidence in retrieved set for 16/18 answerable questions
+s250_k4_plain: evidence in retrieved set for 17/18 answerable questions
+s250_k4_rerank: evidence in retrieved set for 16/18 answerable questions
+s500_k3_rerank: evidence in retrieved set for 15/18 answerable questions

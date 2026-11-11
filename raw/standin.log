@@ -1,0 +1,629 @@
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 149, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {"content": pc}}]}) + "\n\n").encode())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 577, in _handle_request
+    resp = await request_handler(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_app.py", line 563, in _handle
+    return await handler(request)
+  File "/Users/ayush/Downloads/relay/standin/server.py", line 151, in chat
+    await resp.write(("data: " + json.dumps({"choices": [{"delta": {}, "finish_reason": "stop"}],
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/web_response.py", line 565, in write
+    await self._payload_writer.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 203, in write
+    self._write_chunked_payload(chunk)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 123, in _write_chunked_payload
+    self._writelines((chunk_len_pre, chunk, b"\r\n"))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/http_writer.py", line 114, in _writelines
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
